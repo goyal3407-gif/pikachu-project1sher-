@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    background: #f5f5f5;
+    padding: 27px 30px;
+}
+
+/* MAIN CARD */
+.hero {
+    position: relative;
+    width: 100%;
+    min-height: calc(100vh - 54px);
+
+    overflow: hidden;
+
+    border-radius: 24px;
+
+    background:
+        linear-gradient(
+            to right,
+            #ffc900 0%,
+            #ffc900 62%,
+            #fff0c9 62%,
+            #fff0c9 100%
+        );
+}
+
+/* NAVBAR */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 32px 45px;
+
+    z-index: 10;
+}
+
+.logo img {
+    width: 175px;
+    height: auto;
+    display: block;
+}
+
+/* MENU */
+.menu-btn {
+    width: 46px;
+    height: 46px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 8px;
+
+    padding: 0;
+    border: none;
+    background: transparent;
+
+    cursor: pointer;
+}
+
+.menu-btn span {
+    display: block;
+
+    width: 44px;
+    height: 4px;
+
+    background: #111;
+    border-radius: 10px;
+}
+
+/* CONTENT */
+.content {
+    min-height: calc(100vh - 54px);
+
+    display: flex;
+    align-items: center;
+
+    padding: 120px 80px 60px;
+}
+
+/* LEFT TEXT */
+.text {
+    width: 48%;
+    z-index: 2;
+}
+
+.subtitle {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 7px;
+
+    margin-bottom: 35px;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: clamp(80px, 8vw, 150px);
+    line-height: 0.9;
+    font-weight: 800;
+
+    margin-bottom: 35px;
+}
+
+.description {
+    max-width: 500px;
+
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.65;
+
+    color: #171717;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    margin-top: 40px;
+
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.counter span {
+    width: 45px;
+    height: 2px;
+
+    background: #111;
+}
+
+/* PIKACHU */
+.pokemon {
+    position: absolute;
+
+    width: 50%;
+    right: 4%;
+    bottom: 5%;
+
+    z-index: 3;
+}
+
+.pokemon img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
