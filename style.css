@@ -15,7 +15,7 @@ body {
     padding: 27px 30px;
 }
 
-/* MAIN CARD */
+
 .hero {
     position: relative;
     width: 100%;
@@ -35,7 +35,7 @@ body {
         );
 }
 
-/* NAVBAR */
+
 .navbar {
     position: absolute;
     top: 0;
@@ -58,7 +58,6 @@ body {
     display: block;
 }
 
-/* MENU */
 .menu-btn {
     width: 46px;
     height: 46px;
@@ -86,7 +85,6 @@ body {
     border-radius: 10px;
 }
 
-/* CONTENT */
 .content {
     min-height: calc(100vh - 54px);
 
@@ -96,7 +94,6 @@ body {
     padding: 120px 80px 60px;
 }
 
-/* LEFT TEXT */
 .text {
     width: 48%;
     z-index: 2;
@@ -149,7 +146,6 @@ h1 {
     background: #111;
 }
 
-/* PIKACHU */
 .pokemon {
     position: absolute;
 
