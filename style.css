@@ -161,3 +161,56 @@ h1 {
     height: auto;
     display: block;
 }
+
+/* --- Mobile responsive (added: stacks hero, scales art and headings) --- */
+@media (max-width: 768px) {
+    body {
+        padding: 12px;
+    }
+    .hero {
+        min-height: auto;
+        border-radius: 18px;
+    }
+    .navbar {
+        padding: 18px 20px;
+    }
+    .logo img {
+        width: 120px;
+    }
+    .menu-btn {
+        width: 44px;
+        height: 44px;
+    }
+    .content {
+        flex-direction: column;
+        align-items: flex-start;
+        min-height: auto;
+        padding: 110px 20px 40px;
+        gap: 28px;
+    }
+    .text {
+        width: 100%;
+    }
+    .subtitle {
+        font-size: 14px;
+        letter-spacing: 5px;
+        margin-bottom: 20px;
+    }
+    h1 {
+        font-size: clamp(56px, 16vw, 90px);
+        margin-bottom: 20px;
+    }
+    .description {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .counter {
+        margin-top: 28px;
+    }
+    .pokemon {
+        position: static;
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+}
